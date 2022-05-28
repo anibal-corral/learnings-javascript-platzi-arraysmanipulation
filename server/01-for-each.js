@@ -14,4 +14,4 @@ const products = [
 const app = document.getElementById('app');
 products.forEach(product=>{
     app.innerHTML +=`<li>${product.title}</li>`
-})
+}) 
